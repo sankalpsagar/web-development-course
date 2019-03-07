@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tables.</title>
+</head>
+<body>
+	I've been hearing a lot about how useful tables are. Let's find out for real, shall we?
+	<br>
+	<br>
+	<table border="1">
+		<caption>Ratings of Games</caption>
+		<th> Game Name </th><th> Rating </th>
+		<tr><td>CS:GO</td><td>10.0</td></tr>
+		<tr><td>Paladins</td><td>7.0</td></tr>
+	</table>
+	<br>
+	Pretty cool, but nothing special so far. But what if we try rowspan? Let's check it out.
+	<br>
+	<br>
+	<table border="1">
+		<caption>Comprehensive Rating of Games</caption>
+		<th> Game Name </th><th> Ratings (Visual/Audio) </th>
+		<tr><td rowspan="2">CS:GO</td><td>Visual: 8.0</td></tr>
+			<tr><td>Audio: 9.0</td></tr>
+		<tr><td rowspan="2">Paladins</td><td>Visual: 9.0</td></tr>
+			<tr><td>Audio: 9.0</td></tr>
+	</table>
+</body>
+</html>
