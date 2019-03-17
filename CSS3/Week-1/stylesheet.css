@@ -1,0 +1,34 @@
+h1{
+	background: #FFCDD2;
+}
+
+header{
+	background: #EF9A9A;
+	text-align: center;
+}
+
+nav{
+	font-size: 110%;
+	font-variant: small-caps;
+	font-family: Helvetica, Arial, Verdana;
+}
+
+h2{
+	font-variant: small-caps;
+	font-family: Helvetica, Arial, Verdana;
+	color: #D50000;
+	background: #EF5350;
+}
+
+footer{
+	background: #EF9A9A;
+	text-align: center;
+}
+
+body{
+	background: #FF8A80;
+}
+
+progress{
+	color: #D50000;
+}
